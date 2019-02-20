@@ -1,4 +1,4 @@
-package io.left.rightmesh.librxbus;
+package io.rightmesh.librxbus;
 
 /**
  * Thread type that can be used with the {@see Subscribe} annotation.
