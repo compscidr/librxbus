@@ -31,7 +31,7 @@ public class RxBus {
     private Subject<Object> bus;
     private Map<Object, Map<String, Disposable>> subscriptions;
 
-    private static RxBus getInstance() {
+    public static RxBus getInstance() {
         synchronized (lock) {
             if (instance == null) {
                 instance = new RxBus();
